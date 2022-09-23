@@ -1,2 +1,2 @@
-# portf
+# portfolio
 Portfolio of Web Design
