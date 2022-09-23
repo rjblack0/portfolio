@@ -1,0 +1,218 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color:white;
+    transition: all .2s ease-in-out; 
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    object-fit: cover;
+    height: 40px;
+}
+.social {
+    object-fit: cover;
+    height: 30px;
+    padding-left: 10px;
+    opacity: 0.2;
+}
+
+.social:hover {
+    opacity: 0.7;
+
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    border: hidden;
+    background: rgba(0, 0, 0, 0);
+}
+
+.header-buttons button {
+    border: hidden;
+    background: rgba(0, 0, 0, 0);
+    padding: 0px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.header-buttons button:hover {
+    box-shadow: 3px 3px 30px rgba(255, 255, 255, 0.30);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-delay: 0.025s;
+    font-size: 15.5px;
+    transform: scale(1.02);
+}
+
+.logo:hover {
+    box-shadow: 3px 3px 30px rgba(255, 255, 255, 0.10);
+    background:transparent;
+    transition-delay: 0.025s;
+    font-size: 15.5px;
+    transform: scale(1.02);
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0,0.5);
+    width: 2000px;
+   
+}
+
+.menu p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+.menu li {
+    font-size: 15px;
+    position: relative;
+    left: -20px;
+    padding-left: 35px;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.sites-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgba(0, 0, 0,0.5);
+    width: auto;
+}
+
+.site-links {
+    display: flex;
+    background-color: rgba(54,46,81, 0.5);
+    height: 300px;
+    width: 700px;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-flow: column wrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.site-link-background {
+    background-image: url(./icons/newpersonalicon-lilac.png);
+    object-fit: contain;
+}
+
+.site-links:hover {
+    transform: scale(1.015);
+    transition-delay: 0.015;
+}
+
+.l1 {
+    display:flex;
+    flex: 1,1,0;
+    align-content: flex-start;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: 0px;
+}
+
+.l2 {
+    display: flex;
+    flex: 3,1,0;
+    inline-size: 400px;
+    overflow-wrap: normal;
+    flex-flow: column;
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 0px;
+    position: relative;
+}
+
+.l2::before {
+    content: "";
+    background-image: url(./icons/newpersonalicon-lilac-small.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    opacity: 0.15;
+    height: 300px;
+    width: 370px;
+}
+
+.site-title {
+    display: flex;
+    flex: 1;
+    margin: 1px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote {
+    display: flex;
+    justify-content: inherit;
+    font-style: italic;
+    font-size: large;
+}
+
+.citation {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.credits {
+    align-content: center;
+    font-size: 10px;
+}
